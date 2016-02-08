@@ -15,18 +15,3 @@
  */
 
 
-html, body { background: #F2F2F2; }
-body { padding-top: 100px;
-      background: #808080}
-footer { margin-top: 100px;
-         color: #E0EBEB }
-table, td, th { vertical-align: middle; border: none; }
-h1 {
-    text-align: center;
-    color: #FFFFFF
-}
-p {
-    text-align: center;
-    color: #E0EBEB
-}
-th { border-bottom: 1px solid #DDD; }

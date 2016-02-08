@@ -1,4 +1,83 @@
-<h1><font size="5">Application development to meet your every need.</font></h1>
-    <h1><%= image_tag('slickphoto.jpg', style: "height: 198px; width: 600px", display: "block") %></h1>
-<br>
+<br><br>
+<div id="carousel" class="carousel slide" data-ride="carousel">
+   
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <%= image_tag('slickstart.jpg', style: 'height: auto') %>     
+      </div>
+ 
+      <div class="item">
+        <%= image_tag('hiretoday.jpg', style: 'height: auto') %>     
+      </div>
+    </div>
 
+</div>
+
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>What We Do</h2><br>
+      <h4>SlickRails develops websites using Ruby on Rails, Bootstrap, and other frameworks to quickly get your project up and running. Our websites are specially designed to fit your needs.</h4><br>
+      <br>
+<a href="#contact" class="btn btn-default" role="button">Get in Touch</a>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>Our Values</h2><br>
+      <h4><strong>MISSION:</strong> To give your services the modern and unique design it deserves.</h4><br>
+      <h4><strong>VISION:</strong> Our vision is to develop trusted and affordable websites to all.</h4>
+    </div>
+  </div>
+</div>
+
+<div id="portfolio" class="container-fluid text-center bg-grey">
+  <h2>Portfolio</h2><br>
+  <h4>What we have created</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-6">
+      <div class="thumbnail">
+<%= image_tag('TabiSlick.jpg', alt: 'TabiSlick', style: 'height: 300; width: 400px') %>
+        <p><strong><a target="_blank" href="http://www.tabislick.com">www.TabiSlick.com</a></strong></p>
+        <a aria-label="Fork me on GitHub" data-style="mega" href="https://github.com/SlickRailsDevelopment/tabislick" class="github-button">Fork me on Github</a><script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script><br>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="thumbnail">
+        <img src="newyork.jpg" alt="New York" width="400" height="300">
+        <p><strong>New York</strong></p>
+        <p>We built New York</p>
+      </div>
+    </div>
+  </div><br>
+
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you as soon as possible.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>	   
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>	
+    </div>
+  </div>
+</div>
