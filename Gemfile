@@ -10,6 +10,10 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.2'
+
+# Specify Ruby Version
+ruby '2.2.4'
+
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sass-rails', '~> 5.0'
