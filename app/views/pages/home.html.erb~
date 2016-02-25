@@ -38,17 +38,26 @@
   <h2>Portfolio</h2><br>
   <h4>What we have created</h4>
   <div class="row text-center slideanim">
-    <div class="col-sm-6">
+    <div class="col-sm-4">
       <div class="thumbnail">
 <%= image_tag('TabiSlick.jpg', alt: 'TabiSlick', style: 'height: 300; width: 400px') %>
         <p><strong><a target="_blank" href="http://www.tabislick.com">www.TabiSlick.com</a></strong></p>
         <a aria-label="Fork me on GitHub" data-style="mega" href="https://github.com/SlickRailsDevelopment/tabislick" class="github-button">Fork me on Github</a><script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
       </div>
     </div>
-    <div class="col-sm-6">
+
+<div class="col-sm-4">
+      <div class="thumbnail">
+        <%= image_tag('seayeti.png', alt: 'Sea Yeti Charters', style: 'height: 300; width: 400px') %>
+        <p><strong><a target="_blank" href="http://www.seayeticharters.com/">www.SeaYetiCharters.com</a></strong></p>
+        <a aria-label="Fork me on GitHub" data-style="mega" href="https://github.com/SlickRailsDevelopment/seayeticharters" class="github-button">Fork me on Github</a><script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
       <div class="thumbnail">
         <%= image_tag('gabe.png', alt: 'Gabe', style: 'height: 300; width: 400px') %>
-        <p><strong><a target="_blank" href="http://www.gabecarbaugh.herokuapp.com">www.GabeCarbaugh.com</a></strong></p>
+        <p><strong><a target="_blank" href="https://gabecarbaugh.herokuapp.com/">www.GabeCarbaugh.com</a></strong></p>
         <a aria-label="Fork me on GitHub" data-style="mega" href="https://github.com/SlickRailsDevelopment/gabesite" class="github-button">Fork me on Github</a><script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
       </div>
     </div>
