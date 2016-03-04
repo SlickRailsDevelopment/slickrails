@@ -48,7 +48,7 @@
 
 <div class="col-sm-4">
       <div class="thumbnail">
-        <%= image_tag('seayeti.png', alt: 'Sea Yeti Charters', style: 'height: 105px; width: 400px') %>
+        <%= image_tag('SeaYetiCharters.png', alt: 'Sea Yeti Charters', style: 'width: 400px') %>
         <p><strong><a target="_blank" href="http://www.seayeticharters.com/">www.SeaYetiCharters.com</a></strong></p>
         <a aria-label="Fork me on GitHub" data-style="mega" href="https://github.com/SlickRailsDevelopment/seayeticharters" class="github-button">Fork me on Github</a>
       </div>
