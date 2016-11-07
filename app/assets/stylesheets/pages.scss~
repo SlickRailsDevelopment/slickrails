@@ -22,18 +22,21 @@
   }  
   .container-fluid {
       padding: 60px 50px;
-      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
   }
   .bg-grey {
       background-color: #f6f6f6;
       text-align: center;
+      margin-left: auto;
+      margin-right: auto;
   }
   .logo-small {
-      color: #f4511e;
+      color: #76d3b3;
       font-size: 50px;
   }
   .logo {
-      color: #f4511e;
+      color: #76d3b3;
       font-size: 200px;
   }
   .thumbnail {
@@ -61,7 +64,7 @@
       font-style: normal;
   }
   .panel {
-      border: 1px solid #f4511e; 
+      border: 1px solid #76d3b3; 
       border-radius:0 !important;
       transition: box-shadow 0.5s;
   }
@@ -69,13 +72,13 @@
       box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
   .panel-footer .btn:hover {
-      border: 1px solid #f4511e;
+      border: 1px solid #76d3b3;
       background-color: #fff !important;
       color: #f4511e;
   }
   .panel-heading {
       color: #fff !important;
-      background-color: #f4511e !important;
+      background-color: #76d3b3 !important;
       padding: 25px;
       border-bottom: 1px solid transparent;
       border-top-left-radius: 0px;
@@ -83,18 +86,4 @@
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
   }
-  .panel-footer {
-      background-color: white !important;
-  }
-  .panel-footer h3 {
-      font-size: 32px;
-  }
-  .panel-footer h4 {
-      color: #aaa;
-      font-size: 14px;
-  }
-  .panel-footer .btn {
-      margin: 15px 0;
-      background-color: #f4511e;
-      color: #fff;
-  }
+

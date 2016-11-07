@@ -28,7 +28,7 @@
       color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #f4511e !important;
+      color: #76d3b3 !important;
       background-color: #fff !important;
   }
   .navbar-default .navbar-toggle {
@@ -50,7 +50,7 @@
 footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
-      color: #f4511e;
+      color: #76d3b3;
   }
   .slideanim {visibility:hidden;}
   .slide {
@@ -119,12 +119,17 @@ footer .glyphicon {
   </div>
 </nav>
 <%= yield %>
-<footer class="container-fluid text-center">
-  <a href="#myPage" title="To Top">
+
+<footer>
+<div id="footer">
+<p class='text-center'>
+<a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>Developed by <a href="http://www.slickrails.com" title="SlickRails">SlickRails</a></p>		
-</footer>
+<br>
+Developed by <a target="_blank" href="http://www.slickrails.com">SlickRails</a>
+</p>
+</div>
 
 <script>
 $(document).ready(function(){
@@ -154,7 +159,10 @@ $(document).ready(function(){
     });
   });
 })
+
 </script>
+
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
 
 </body>
 </html>
