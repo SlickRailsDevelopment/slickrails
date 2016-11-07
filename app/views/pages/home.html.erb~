@@ -22,8 +22,16 @@
     <div class="col-sm-8">
       <h2>What We Do</h2><br>
       <h4>SlickRails develops websites using Ruby on Rails, Bootstrap, and other frameworks to quickly get your project up and running. Our websites are specially designed to fit your needs.</h4><br>
-      <br>
+      
+<div class="col-sm-4">
+      <p>Follow Us:</p>
+	<center><a href="https://www.facebook.com/slickrails/"><%= image_tag('facebook.png', class: 'img-responsive img-circle', style: 'height: 50px; width: 50px')%></a></center>
+</div>
+
+<div class="col-sm-4">
+<br>
 <a href="#contact" class="btn btn-default" role="button">Get in Touch</a>
+</div>
     </div>
   </div>
 </div>
@@ -88,7 +96,7 @@
 <div class="jumbotron text-center">
   <h2>Request a FREE quote!</h2>
   <p>Like what you see? Check out the form below for your free quote:</p> 
-  <a href="#pricing"><button class="btn btn-default btn-lg">Get a Quote</button></a>
+  <a href="https://goo.gl/forms/EYhR0bT90XJojLfg1"><button class="btn btn-default btn-lg">Get a Quote</button></a>
 </div>
   </div>
 </div>
