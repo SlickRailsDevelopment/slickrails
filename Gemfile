@@ -8,6 +8,8 @@ group :production do
   gem 'rails_12factor'
 end
 
+gem 'mail_form', '~> 1.5', '>= 1.5.1'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.2'
 

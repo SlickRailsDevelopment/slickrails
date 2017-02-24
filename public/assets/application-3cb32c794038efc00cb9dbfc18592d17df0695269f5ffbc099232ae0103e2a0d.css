@@ -30,7 +30,7 @@ h4 {
   margin-right: auto;
 }
 
-/* line 28, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
+/* line 29, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
 .bg-grey {
   background-color: #f6f6f6;
   text-align: center;
@@ -38,39 +38,39 @@ h4 {
   margin-right: auto;
 }
 
-/* line 34, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
+/* line 35, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
 .logo-small {
-  color: #f4511e;
+  color: #76d3b3;
   font-size: 50px;
 }
 
-/* line 38, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
+/* line 39, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
 .logo {
-  color: #f4511e;
+  color: #76d3b3;
   font-size: 200px;
 }
 
-/* line 42, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
+/* line 43, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
 .thumbnail {
   padding: 0 0 15px 0;
   border: none;
   border-radius: 0;
 }
 
-/* line 47, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
+/* line 48, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
 .thumbnail img {
   width: 100%;
   height: 100%;
   margin-bottom: 10px;
 }
 
-/* line 52, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
+/* line 53, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
 .carousel-inner img {
-  width: 100%;
+  width: auto;
   margin: auto;
 }
 
-/* line 56, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
+/* line 57, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
 .item h4 {
   font-size: 19px;
   line-height: 1.375em;
@@ -79,34 +79,34 @@ h4 {
   margin: 70px 0;
 }
 
-/* line 63, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
+/* line 64, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
 .item span {
   font-style: normal;
 }
 
-/* line 66, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
+/* line 67, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
 .panel {
-  border: 1px solid #f4511e;
+  border: 1px solid #76d3b3;
   border-radius: 0 !important;
   transition: box-shadow 0.5s;
 }
 
-/* line 71, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
+/* line 72, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
 .panel:hover {
   box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
 }
 
-/* line 74, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
+/* line 75, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
 .panel-footer .btn:hover {
-  border: 1px solid #f4511e;
+  border: 1px solid #76d3b3;
   background-color: #fff !important;
   color: #f4511e;
 }
 
-/* line 79, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
+/* line 80, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
 .panel-heading {
   color: #fff !important;
-  background-color: #f4511e !important;
+  background-color: #76d3b3 !important;
   padding: 25px;
   border-bottom: 1px solid transparent;
   border-top-left-radius: 0px;
@@ -115,26 +115,26 @@ h4 {
   border-bottom-right-radius: 0px;
 }
 
-/* line 89, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
+/* line 90, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
 .panel-footer {
   background-color: white !important;
 }
 
-/* line 92, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
+/* line 93, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
 .panel-footer h3 {
   font-size: 32px;
 }
 
-/* line 95, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
+/* line 96, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
 .panel-footer h4 {
   color: #aaa;
   font-size: 14px;
 }
 
-/* line 99, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
+/* line 100, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/pages.scss */
 .panel-footer .btn {
   margin: 15px 0;
-  background-color: #f4511e;
+  background-color: #76d3b3;
   color: #fff;
 }
 /* line 1, /home/slick/slickdevelopment/slickweb/app/assets/stylesheets/scaffolds.scss */

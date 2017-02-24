@@ -29,7 +29,7 @@
 </div>
 
 <div class="col-sm-4">
-<br><br>
+<br><br><br>
 <a href="#contact" class="btn btn-default" role="button">Get in Touch</a>
 </div>
     </div>
@@ -46,69 +46,92 @@
   </div>
 </div>
 
+<div id="services" class="container-fluid text-center">
+  <h2>SERVICES</h2>
+  <h4>What we offer</h4>
+  <br>
+  <div class="row">
+
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-th"></span>
+      <font color="#d1256a"><h4>MULTI-PAGE WEBSITE</h4></font>
+	<div class="panel-footer"><p><strong>Initial Start Cost: $150</strong></p></div>
+      <p><strong>A dynamic 5 page business website</strong> that will showcase your services and promote your business.</p>
+	<div class="panel-footer">
+	<font color="#d1256a"><p><strong>Yearly: $50</strong></p></font>
+	<p><strong>Includes your own domain</strong>, hosting, and 5 hours to build initial custom website.</p>
+	<p><i>*Starting cost includes 1 year of hosting. If changes are required, programming costs are $25 per hour.</i></p>
+</div>
+    </div>
+
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-briefcase"></span>
+      <font color="#d18227"><h4>SINGLE PAGE WEBSITE</h4></font>
+	<div class="panel-footer"><p><strong>Initial Start Cost: $125</strong></p></div>
+      <p><strong>A single page business website</strong> that highlights your business services and professional experience.</p>
+	<div class="panel-footer">
+	<font color="#d18227"><p><strong>Yearly: $40</strong></p></font>
+	<p><strong>Includes your own domain</strong>, hosting, and 5 hours to build initial custom website.</p>
+	<p><i>*Starting cost includes 1 year of hosting. If changes are required, programming costs are $25 per hour.</i></p>
+</div>
+    </div>
+    
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-user"></span>
+      <font color="#25d1a8"><h4>LANDING PAGE WEBSITE</h4></font>
+	<div class="panel-footer"><p><strong>Initial Start Cost: $80</strong></p></div>
+      <p><strong>Single cross-platform page</strong> to showcase your professional qualifications.</p>
+	<div class="panel-footer">
+	<font color="#25d1a8"><p><strong>Yearly: $30</strong></p></font>
+	<p><strong>Includes your own domain</strong>, hosting, and 4 hours to build initial custom website.</p>
+	<p><i>*Starting cost includes 1 year of hosting. If changes are required, programming costs are $25 per hour.</i></p>
+</div>
+    </div>
+
+  </div>
+</div>
+
 <div id="portfolio" class="container-fluid text-center bg-grey">
   <h2>Portfolio</h2><br>
   <h4>What we have created</h4>
-  <div class="row text-center slideanim">
+<div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
-	<center><a href="http://www.seayeticharters.com" target="_blank"><%= image_tag('seayeti.png', class: 'img-responsive', style: 'height: 200px; width: auto')%></a></center>
-	<p><strong>Small Business Website</strong></p>
+ 	<center><a href="http://www.seayeticharters.com" target="_blank"><%= image_tag('seayeti.png', class: 'img-responsive', style: 'height: 200px; width: auto')%></a></center>
+	<p><strong>Single Page Business Site</strong></p>
         <a aria-label="Fork me on GitHub" data-style="mega" href="https://github.com/SlickRailsDevelopment/seayeticharters" class="github-button">Fork me on Github</a>
       </div>
     </div>
 
-<div class="col-sm-4">
+    <div class="col-sm-4">
       <div class="thumbnail">
-	<center><a href="http://www.steadfastbirthservices.com" target="_blank"><%= image_tag('steadfast.png', class: 'img-responsive', style: 'height: 200px; width: auto')%></a></center>
-	<p><strong>Natural Birth Services</strong></p>
-        <a aria-label="Fork me on GitHub" data-style="mega" href="https://github.com/SlickRailsDevelopment/steadfastbirth" class="github-button">Fork me on Github</a>
+ 	<center><a href="http://barriga.herokuapp.com" target="_blank"><%= image_tag('barriga.png', class: 'img-responsive', style: 'height: 200px; width: auto')%></a></center>
+	<p><strong>Multi-Page Business Site</strong></p>
+        <a aria-label="Fork me on GitHub" data-style="mega" href="https://github.com/SlickRailsDevelopment/barrigabiz" class="github-button">Fork me on Github</a>
       </div>
     </div>
 
     <div class="col-sm-4">
       <div class="thumbnail">
-        <center><a href="http://devinslick.herokuapp.com" target="_blank"><%= image_tag('devinslick.png', class: 'img-responsive', style: 'height: 200px; width: auto')%></a></center>
-	<p><strong>Landing Page</strong></p>
+ 	<center><a href="http://www.devinslick.com" target="_blank"><%= image_tag('devinslick.png', class: 'img-responsive', style: 'height: 200px; width: auto')%></a></center>
+	<p><strong>Professional Landing Page</strong></p>
         <a aria-label="Fork me on GitHub" data-style="mega" href="https://github.com/SlickRailsDevelopment/devinslick" class="github-button">Fork me on Github</a>
       </div>
     </div>
 
- <div class="row text-center slideanim">
-    <div class="col-sm-4">
-      
-    </div>
-
-    <div class="col-sm-4">
-      <div class="thumbnail">
- 	<center><a href="http://www.tabislick.com" target="_blank"><%= image_tag('tabislick.png', class: 'img-responsive', style: 'height: 200px; width: auto')%></a></center>
-	<p><strong>Author Blog</strong></p>
-        <a aria-label="Fork me on GitHub" data-style="mega" href="https://github.com/SlickRailsDevelopment/slickauthor" class="github-button">Fork me on Github</a>
-      </div>
-    </div>
     <div class="col-sm-4">
       
     </div>
   </div><br>
-
-<div id="quote" class="container-fluid">
-  <div class="row">
-<div class="jumbotron text-center">
-  <h2>Request a FREE quote!</h2>
-  <p>Like what you see? Check out the form below for your free quote:</p> 
-  <a href="https://goo.gl/forms/EYhR0bT90XJojLfg1" target="_blank"><button class="btn btn-default btn-lg">Get a Quote</button></a>
-</div>
-  </div>
-</div>
 
 <div id="contact" class="container-fluid bg-grey">
 <div class="thumbnail">
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-12">
-      <p>Contact us and we'll get back to you as soon as possible.</p>
+      <p>Like what you see? Then contact us today!</p>
       <p><span class="glyphicon glyphicon-phone"></span> 214.267.8224</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> development@slickrails.com</p>	 
+      <p><span class="glyphicon glyphicon-envelope"></span> <a target="_blank" href="mailto:development@slickrails.com">development@slickrails.com</a></p>	 
 	</div>  
     </div>
   </div>

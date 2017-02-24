@@ -1,10 +1,20 @@
-<h1><font size="5">Contact Us</font></h1>
-<br>
-<p><font size="3">For more information contact Development@SlickRails.com!</font></p>
-<br>
-<br>
-<br>
-<br>
-<br>
+<br><br><br><br><br>
 
-<br>
+class ContactForm < MailForm::Base
+  attribute :name,      :validate => true
+  attribute :email,     :validate => /\A([\w\.%\+\-]+)@([\w\-]+\.)+([\w]{2,})\z/i
+  attribute :file,      :attachment => true
+
+  attribute :message
+  attribute :nickname,  :captcha  => true
+
+  # Declare the e-mail headers. It accepts anything the mail method
+  # in ActionMailer accepts.
+  def headers
+    {
+      :subject => "My Contact Form",
+      :to => "tabi.slick@gmail.com",
+      :from => %("#{Tabi}" <#{test@tabislick.com}>)
+    }
+  end
+end
