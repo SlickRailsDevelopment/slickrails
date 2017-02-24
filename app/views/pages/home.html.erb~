@@ -130,7 +130,7 @@
   <div class="row">
     <div class="col-sm-12">
       <p>Like what you see? Then contact us today!</p>
-      <p><span class="glyphicon glyphicon-phone"></span> 214.267.8224</p>
+      <p><span class="glyphicon glyphicon-phone"></span> <a href="tel:+12142678224">214.267.8224</a></p>
       <p><span class="glyphicon glyphicon-envelope"></span> <a target="_blank" href="mailto:development@slickrails.com">development@slickrails.com</a></p>	 
 	</div>  
     </div>

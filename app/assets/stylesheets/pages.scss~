@@ -50,8 +50,9 @@
       height: 100%;
       margin-bottom: 10px;
   }
+
   .carousel-inner img {
-      width: auto;
+      height: 100%;
       margin: auto;
   }
   .item h4 {
