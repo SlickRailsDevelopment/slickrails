@@ -1,5 +1,5 @@
 <br><br>
-<div id="carousel" class="carousel slide" data-ride="carousel" max-width="100%">
+<div id="carousel" class="container-fluid carousel slide" data-ride="carousel" max-width="100%">
    
     <div class="carousel-inner" role="listbox">
       <div class="item active">
@@ -97,7 +97,7 @@
 <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
- 	<center><a href="http://www.seayeticharters.com" target="_blank"><%= image_tag('seayeti.png', class: 'img-responsive', style: 'height: 200px; width: auto')%></a></center>
+ 	<center><a href="http://www.seayeticharters.com" target="_blank"><%= image_tag('seayeti.png', style: 'height: 200px; width: auto')%></a></center>
 	<p><strong>Single Page Business Site</strong></p>
         <a aria-label="Fork me on GitHub" data-style="mega" href="https://github.com/SlickRailsDevelopment/seayeticharters" class="github-button">Fork me on Github</a>
       </div>
@@ -105,7 +105,7 @@
 
     <div class="col-sm-4">
       <div class="thumbnail">
- 	<center><a href="http://barriga.herokuapp.com" target="_blank"><%= image_tag('barriga.png', class: 'img-responsive', style: 'height: 200px; width: auto')%></a></center>
+ 	<center><a href="http://barriga.herokuapp.com" target="_blank"><%= image_tag('barriga.png', style: 'height: 200px; width: auto')%></a></center>
 	<p><strong>Multi-Page Business Site</strong></p>
         <a aria-label="Fork me on GitHub" data-style="mega" href="https://github.com/SlickRailsDevelopment/barrigabiz" class="github-button">Fork me on Github</a>
       </div>
