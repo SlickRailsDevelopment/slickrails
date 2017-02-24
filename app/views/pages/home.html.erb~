@@ -113,7 +113,7 @@
 
     <div class="col-sm-4">
       <div class="thumbnail">
- 	<center><a href="http://www.devinslick.com" target="_blank"><%= image_tag('devinslick.png', class: 'img-responsive', style: 'height: 200px; width: auto')%></a></center>
+ 	<center><a href="http://www.devinslick.com" target="_blank"><%= image_tag('devinslick.png', style: 'height: 200px; width: auto')%></a></center>
 	<p><strong>Professional Landing Page</strong></p>
         <a aria-label="Fork me on GitHub" data-style="mega" href="https://github.com/SlickRailsDevelopment/devinslick" class="github-button">Fork me on Github</a>
       </div>
