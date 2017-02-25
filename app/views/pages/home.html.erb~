@@ -84,10 +84,13 @@
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-user"></span>
       <font color="#25d1a8"><h4>LANDING PAGE WEBSITE</h4></font>
-	<div class="panel-footer"><p><strong>Initial Start Cost: $80</strong></p></div>
+	<div class="panel-footer"><p><strong>Initial Start Cost: $80</strong></p>
+	<font color="#25d1a8">	
+	<p><strong>Yearly: $30</strong></font>
+	after the first year.</p>
+</div>
       <p><strong>Single cross-platform page</strong> to showcase your professional qualifications.</p>
 	<div class="panel-footer">
-	<font color="#25d1a8"><p><strong>Yearly: $30</strong></p></font>
 	<p><strong>Includes your own domain</strong>, hosting, and 4 hours to build initial custom website.</p>
 	<p><i>*Starting cost includes 1 year of hosting. If changes are required, programming costs are $25 per hour.</i></p>
 </div>
