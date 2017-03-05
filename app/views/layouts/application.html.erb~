@@ -97,7 +97,7 @@ footer .glyphicon {
   }
 </style>
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="60">
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -125,7 +125,7 @@ footer .glyphicon {
 <footer>
 <div id="footer">
 <p class='text-center'>
-<a href="#myPage" title="To Top">
+<a href="#home" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
 <br>
@@ -135,7 +135,7 @@ Developed by <a target="_blank" href="http://www.slickrails.com">SlickRails</a>
 
 <script>
 $(document).ready(function(){
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+  $(".navbar a, footer a[href='#home']").on('click', function(event) {
 
     event.preventDefault();
 
